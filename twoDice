@@ -1,0 +1,33 @@
+// Ray Whitledge
+// 2-10-2014
+// Java Programming
+// Chapter 5 Game Zone
+
+import java.util.*;
+
+public class TwoDice2
+{
+	public static void main(String[] args)
+	{
+		int roll1 =  die1.dieRoll();
+		System.out.println("The value of Die 1 is: " + roll1);
+		
+		int roll2 =  die2.dieRoll();
+		System.out.println("The value of Die 2 is: " + roll2);
+		
+		if(roll1 > roll2)
+		{
+			System.out.println("Die 1 is higher!");
+		}
+		else
+			if(roll1 < roll2)
+			{
+				System.out.println("Die 2 is higher!");
+			}
+			else
+			{
+				System.out.println("Both Dies are the same!");
+			}
+	}
+	
+}
