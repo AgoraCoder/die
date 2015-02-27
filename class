@@ -1,0 +1,24 @@
+// Ray Whitledge
+// 2-10-2014
+// Java Programming
+// Chapter 5 GameZone
+
+import java.util.*;
+
+public class Die
+{
+	public Die()
+	{
+	final int HIGHEST_DIE_VALUE = 6;
+	final int LOWEST_DIE_VALUE = 1;
+	}
+	
+	public int dieRoll()
+	{
+		int randomValue;
+		randomValue = ((int)(Math.random()*100) % HIGHEST_DIE_VALUE + LOWEST_DIE_VALUE);
+		return randomValue;
+	}
+	
+}
+	
